@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "874637253374",
+    "project_id": "crud-maui-dcd37",
+    "storage_bucket": "crud-maui-dcd37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874637253374:android:6b35ab6add3ba3023ba3af",
+        "android_client_info": {
+          "package_name": "com.tuempresa.tuapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDe9MBImJLHbJ-mNCNIVaAnUfI8Qi4zIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
