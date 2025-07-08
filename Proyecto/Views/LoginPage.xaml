@@ -1,0 +1,35 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Proyecto.Views.LoginPage"
+    BackgroundColor="Black"
+    Title="Login">
+
+    <VerticalStackLayout
+      Padding="30"
+      Spacing="20"
+      VerticalOptions="Center">
+
+        <Label
+        Text="Inicia sesión con Facebook"
+        FontSize="24"
+        TextColor="White"
+        HorizontalOptions="Center" />
+
+        <Button
+        x:Name="btnFacebookLogin"
+        Text="Login con Facebook"
+        BackgroundColor="#1877F2"
+        TextColor="White"
+        FontSize="16"
+        CornerRadius="8"
+        Clicked="OnFacebookLoginClicked" />
+
+        <Label
+        x:Name="lblResult"
+        TextColor="LightGray"
+        FontSize="14"
+        HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -5,7 +5,7 @@
         public App()
         {
             InitializeComponent();
-            MainPage = new Proyecto.Views.UsuariosPage();
+            MainPage = new AppShell(); // ← Aquí está el cambio importante
         }
     }
 }

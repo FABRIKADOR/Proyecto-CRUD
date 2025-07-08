@@ -4,5 +4,12 @@
     xmlns:views="clr-namespace:Proyecto.Views"
     x:Class="Proyecto.AppShell">
 
-    <ShellContent Title="Usuarios" ContentTemplate="{DataTemplate views:UsuariosPage}" />
+    <FlyoutItem Title="Iniciar Sesion" Icon="login.png">
+        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Usuarios" Icon="users.png">
+        <ShellContent Route="UsuariosPage" ContentTemplate="{DataTemplate views:UsuariosPage}" />
+    </FlyoutItem>
+
 </Shell>
