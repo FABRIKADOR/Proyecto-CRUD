@@ -1,0 +1,13 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto.Views.AccelerometerPage"
+             Title="Acelerómetro">
+    <VerticalStackLayout Padding="20" Spacing="15" BackgroundColor="#FFFFFF">
+        <Label Text="Valores del acelerómetro:" FontSize="20"/>
+        <Label x:Name="ReadingLabel" Text="X: 0 Y: 0 Z: 0" FontSize="18" />
+        <HorizontalStackLayout Spacing="10">
+            <Button Text="Iniciar" Clicked="OnStartClicked"/>
+            <Button Text="Detener" Clicked="OnStopClicked"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

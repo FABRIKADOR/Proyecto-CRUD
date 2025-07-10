@@ -4,7 +4,6 @@
     x:Class="Proyecto.Views.LoginPage"
     BackgroundColor="Black"
     Title="Login">
-
     <VerticalStackLayout
       Padding="30"
       Spacing="20"

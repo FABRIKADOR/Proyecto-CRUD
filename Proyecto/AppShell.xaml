@@ -4,6 +4,10 @@
     xmlns:views="clr-namespace:Proyecto.Views"
     x:Class="Proyecto.AppShell">
 
+    <FlyoutItem Title="Menu Principal" Icon="menu.png">
+        <ShellContent Route="MainMenuPage" ContentTemplate="{DataTemplate views:MainMenuPage}" />
+    </FlyoutItem>
+
     <FlyoutItem Title="Iniciar Sesion" Icon="login.png">
         <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
     </FlyoutItem>
@@ -11,5 +15,14 @@
     <FlyoutItem Title="Usuarios" Icon="users.png">
         <ShellContent Route="UsuariosPage" ContentTemplate="{DataTemplate views:UsuariosPage}" />
     </FlyoutItem>
+
+    <FlyoutItem Title="Portapapeles" Icon="clipboard.png">
+        <ShellContent Route="ClipboardPage" ContentTemplate="{DataTemplate views:ClipboardPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Acelerometro" Icon="sensor.png">
+        <ShellContent Route="AccelerometerPage" ContentTemplate="{DataTemplate views:AccelerometerPage}" />
+    </FlyoutItem>
+
 
 </Shell>

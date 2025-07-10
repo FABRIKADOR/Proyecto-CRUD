@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto.Views.MainMenuPage"
+             Title="Menú Principal"
+             BackgroundColor="#F0F0F0">
+    <VerticalStackLayout Padding="40" Spacing="20">
+        <Label Text="Selecciona una función"
+               FontSize="28"
+               HorizontalOptions="Center"
+               TextColor="#333" />
+
+        <Button Text="Acelerómetro"
+                Clicked="OnAccelerometerClicked" />
+
+        <Button Text="Portapapeles"
+                Clicked="OnClipboardClicked" />
+
+        <Button Text="Login con Facebook"
+                Clicked="OnFacebookClicked" />
+    </VerticalStackLayout>
+</ContentPage>
